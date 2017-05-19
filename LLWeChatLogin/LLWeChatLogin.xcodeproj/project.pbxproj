@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843637421ECF3092000835CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843637411ECF3092000835CE /* main.m */; };
+		843637451ECF3092000835CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843637441ECF3092000835CE /* AppDelegate.m */; };
+		843637481ECF3092000835CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843637471ECF3092000835CE /* ViewController.m */; };
+		8436374B1ECF3092000835CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843637491ECF3092000835CE /* Main.storyboard */; };
+		8436374D1ECF3092000835CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436374C1ECF3092000835CE /* Assets.xcassets */; };
+		843637501ECF3092000835CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436374E1ECF3092000835CE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8436373D1ECF3092000835CE /* LLWeChatLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLWeChatLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843637411ECF3092000835CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843637431ECF3092000835CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843637441ECF3092000835CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		843637461ECF3092000835CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		843637471ECF3092000835CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8436374A1ECF3092000835CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8436374C1ECF3092000835CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8436374F1ECF3092000835CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843637511ECF3092000835CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8436373A1ECF3092000835CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843637341ECF3092000835CE = {
+			isa = PBXGroup;
+			children = (
+				8436373F1ECF3092000835CE /* LLWeChatLogin */,
+				8436373E1ECF3092000835CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8436373E1ECF3092000835CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8436373D1ECF3092000835CE /* LLWeChatLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8436373F1ECF3092000835CE /* LLWeChatLogin */ = {
+			isa = PBXGroup;
+			children = (
+				843637431ECF3092000835CE /* AppDelegate.h */,
+				843637441ECF3092000835CE /* AppDelegate.m */,
+				843637461ECF3092000835CE /* ViewController.h */,
+				843637471ECF3092000835CE /* ViewController.m */,
+				843637491ECF3092000835CE /* Main.storyboard */,
+				8436374C1ECF3092000835CE /* Assets.xcassets */,
+				8436374E1ECF3092000835CE /* LaunchScreen.storyboard */,
+				843637511ECF3092000835CE /* Info.plist */,
+				843637401ECF3092000835CE /* Supporting Files */,
+			);
+			path = LLWeChatLogin;
+			sourceTree = "<group>";
+		};
+		843637401ECF3092000835CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				843637411ECF3092000835CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8436373C1ECF3092000835CE /* LLWeChatLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843637541ECF3092000835CE /* Build configuration list for PBXNativeTarget "LLWeChatLogin" */;
+			buildPhases = (
+				843637391ECF3092000835CE /* Sources */,
+				8436373A1ECF3092000835CE /* Frameworks */,
+				8436373B1ECF3092000835CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLWeChatLogin;
+			productName = LLWeChatLogin;
+			productReference = 8436373D1ECF3092000835CE /* LLWeChatLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843637351ECF3092000835CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = HWD;
+				TargetAttributes = {
+					8436373C1ECF3092000835CE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 843637381ECF3092000835CE /* Build configuration list for PBXProject "LLWeChatLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843637341ECF3092000835CE;
+			productRefGroup = 8436373E1ECF3092000835CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8436373C1ECF3092000835CE /* LLWeChatLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8436373B1ECF3092000835CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843637501ECF3092000835CE /* LaunchScreen.storyboard in Resources */,
+				8436374D1ECF3092000835CE /* Assets.xcassets in Resources */,
+				8436374B1ECF3092000835CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843637391ECF3092000835CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843637481ECF3092000835CE /* ViewController.m in Sources */,
+				843637451ECF3092000835CE /* AppDelegate.m in Sources */,
+				843637421ECF3092000835CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843637491ECF3092000835CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8436374A1ECF3092000835CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8436374E1ECF3092000835CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8436374F1ECF3092000835CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843637521ECF3092000835CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		843637531ECF3092000835CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843637551ECF3092000835CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLWeChatLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweidun.LLWeChatLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843637561ECF3092000835CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLWeChatLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaweidun.LLWeChatLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843637381ECF3092000835CE /* Build configuration list for PBXProject "LLWeChatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843637521ECF3092000835CE /* Debug */,
+				843637531ECF3092000835CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843637541ECF3092000835CE /* Build configuration list for PBXNativeTarget "LLWeChatLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843637551ECF3092000835CE /* Debug */,
+				843637561ECF3092000835CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843637351ECF3092000835CE /* Project object */;
+}
